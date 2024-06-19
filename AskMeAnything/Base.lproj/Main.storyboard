@@ -23,10 +23,6 @@
                                 <color key="textColor" red="0.58690016680000001" green="1" blue="0.83108601299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g79-ip-wKh">
-                                <rect key="frame" x="86" y="362" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPh-a6-w7X">
                                 <rect key="frame" x="147" y="636" width="118" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -39,12 +35,19 @@
                                     <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLO-JA-RJQ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g79-ip-wKh">
+                                <rect key="frame" x="76" y="348" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="tintColor"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="g79-ip-wKh" id="DMg-NG-Rfc"/>
+                        <outlet property="Image" destination="g79-ip-wKh" id="dyz-Lt-JIC"/>
+                        <outlet property="ImageView" destination="g79-ip-wKh" id="25n-ak-nEt"/>
+                        <outlet property="image3" destination="g79-ip-wKh" id="fhY-7D-ICd"/>
+                        <outlet property="imageView" destination="g79-ip-wKh" id="0ID-aG-pj4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

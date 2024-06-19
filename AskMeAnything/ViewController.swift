@@ -8,20 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+
     
+    @IBOutlet weak var ImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-    
-    
-    @IBOutlet weak var imageView: UIImageView!
         
-    @IBAction func askButtonPressed(_ sender: Any) {
+        // Используем #imageLiteral для выбора изображения
+        imageView.image = #imageLiteral(resourceName: "Ball 2")
     }
-    
-    
 }
 
-
-
+ 
