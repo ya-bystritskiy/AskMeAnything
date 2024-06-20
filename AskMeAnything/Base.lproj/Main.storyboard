@@ -23,20 +23,20 @@
                                 <color key="textColor" red="0.58690016680000001" green="1" blue="0.83108601299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPh-a6-w7X">
-                                <rect key="frame" x="147" y="636" width="118" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMA-a2-Vx0">
+                                <rect key="frame" x="92" y="628" width="229" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="ask ">
+                                <state key="normal" title="AskButton">
                                     <color key="titleColor" systemColor="systemPinkColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="askButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLO-JA-RJQ"/>
+                                    <action selector="AskButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhj-8s-dxU"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g79-ip-wKh">
-                                <rect key="frame" x="76" y="348" width="240" height="128"/>
+                                <rect key="frame" x="32" y="308" width="329" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -44,10 +44,7 @@
                         <color key="backgroundColor" systemColor="tintColor"/>
                     </view>
                     <connections>
-                        <outlet property="Image" destination="g79-ip-wKh" id="dyz-Lt-JIC"/>
-                        <outlet property="ImageView" destination="g79-ip-wKh" id="25n-ak-nEt"/>
                         <outlet property="image3" destination="g79-ip-wKh" id="fhY-7D-ICd"/>
-                        <outlet property="imageView" destination="g79-ip-wKh" id="0ID-aG-pj4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

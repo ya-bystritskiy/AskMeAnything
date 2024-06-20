@@ -8,15 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     
-    @IBOutlet weak var ImageView: UIImageView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet weak var Image3: UIImageView!
+    let ballArray = [UIImage(named: "Ball 1") ,UIImage(named: "Ball 2") ,UIImage(named: "Ball 3") , UIImage(named: "Ball 4") ,UIImage(named: "Ball 5") ,
+    ]
+
+
+
+    @IBAction func AskButton(_ sender: Any) {
+    
         
-        // Используем #imageLiteral для выбора изображения
-        imageView.image = #imageLiteral(resourceName: "Ball 2")
+        Image3.image = ballArray[Int.random(in: 0...4 )]
+        
+
     }
 }
 
- 
+
+
