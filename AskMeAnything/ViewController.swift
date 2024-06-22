@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     ]
 
 
-
     @IBAction func AskButton(_ sender: Any) {
     
         
@@ -23,6 +22,3 @@ class ViewController: UIViewController {
 
     }
 }
-
-
-
